@@ -1,0 +1,61 @@
+
+#spybg {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/eyebg.png);
+    background-size: cover;
+    background-position: center;
+}
+#imgthing {
+    background-image: url("../images/spy.webp");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+#thing img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.bluetext {
+    color: #508AD6;
+}
+nav {
+    --bs-bg-opacity: 0 !important;
+}
+nav a {
+    border-right: 2px solid #508AD6;
+    color: #508AD6 !important;
+    font-weight: 600;
+    padding: 5px 15px 5px 15px !important;
+}
+nav li:last-child a {
+    border: none;
+}
+nav #current_nav {
+    color: #20355B !important;
+}
+#loginthing td {
+    padding: 10px;
+}
+html {
+    
+}
+#docimg {
+    display: inline-block;
+    width: calc(50% - 5px) !important;
+    object-fit: contain !important;
+    /* height: 500px !important; */
+}
+h3 {
+    color: #508AD6;
+    font-size: 18px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+#hidebg {
+    background: transparent !important;
+}
+#contact {
+    padding: 15px;
+}
