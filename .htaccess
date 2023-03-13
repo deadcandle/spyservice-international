@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^home$ index.php?page=home
+RewriteRule ^overons$ index.php?page=overons
+RewriteRule ^geheimedocumenten$ index.php?page=geheimedocumenten
+RewriteRule ^contact$ index.php?page=contact
+
+ErrorDocument 404 /404.php
